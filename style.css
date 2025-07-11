@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+#add-event-btn {
+  background-color: #008cba;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+}
+
+#add-event-btn:hover {
+  background-color: #006c99;
+}
+
+
+.event-table-wrapper {
+  background-color: white;
+  border: 5px solid #e6e2d3;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 20px 30px;
+}
+
+.event-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.event-table th,
+.event-table td {
+  padding: 14px 10px;
+  font-size: 16px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.event-table th {
+  font-size: 20px;
+  color: black;
+  background-color: white;
+}
+
+.event-table tr {
+  background-color: #e6e2d3;
+  border-bottom: 4px solid white;
+}
+
+.event-table input[type="text"],
+.event-table input[type="date"] {
+  padding: 6px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 90%;
+  box-sizing: border-box;
+}
+
+.event-actions {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+
+.event-actions button {
+  border: none;
+  border-radius: 6px;
+  padding: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+}
+
+.edit-btn {
+  background-color: #008cba;
+}
+
+.delete-btn {
+  background-color: #c94c4c;
+}
+
+.save-btn {
+  background-color: #4caf50;
+}
+
+.cancel-btn {
+  background-color: #c94c4c;
+}
+
+.event-actions button svg {
+  width: 18px;
+  height: 18px;
+  fill: white;
+}
